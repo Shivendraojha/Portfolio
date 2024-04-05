@@ -19,14 +19,14 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path="/" exact element={<About />} />
+          <Route path="/portfolio/about" exact element={<About />} />
           <Route path="*" exact element={<About />} />
-          <Route path="/projects" exact element={<Projects />} />
-          <Route path="/skill" exact element={<Skill />} />
-          <Route path="/hobbies" exact element={<Hobbies />} />
-          <Route path="/education" exact element={<Education />} />
-          <Route path="/certification" exact element={<Certification />} />
-          <Route path="/contact" exact element={<Contact />} />
+          <Route path="/portfolio/projects" exact element={<Projects />} />
+          <Route path="/portfolio/skill" exact element={<Skill />} />
+          <Route path="/portfolio/hobbies" exact element={<Hobbies />} />
+          <Route path="/portfolio/education" exact element={<Education />} />
+          <Route path="/portfolio/certification" exact element={<Certification />} />
+          <Route path="/portfolio/contact" exact element={<Contact />} />
 
         </Routes>
       </Router> </>

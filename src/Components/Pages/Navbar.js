@@ -17,11 +17,11 @@ const Navbar = () => {
           &#9776;
         </div>
         <div className={`nav-links ${isMobileMenuOpen ? 'show' : ''}`}>
-          <Link to="/" className="nav-link" onClick={toggleMobileMenu}>About</Link>
+          <Link to="/portfolio/about" className="nav-link" onClick={toggleMobileMenu}>About</Link>
           {/* <Link to="/education" className="nav-link" onClick={toggleMobileMenu}>Education</Link>  */}
-          <Link to="/projects" className="nav-link" onClick={toggleMobileMenu}>Projects</Link>
-          <Link to="/certification" className="nav-link" onClick={toggleMobileMenu}>Certification</Link>
-          <Link to="/contact" className="nav-link" onClick={toggleMobileMenu}>Contact</Link>
+          <Link to="/portfolio/projects" className="nav-link" onClick={toggleMobileMenu}>Projects</Link>
+          <Link to="/portfolio/certification" className="nav-link" onClick={toggleMobileMenu}>Certification</Link>
+          <Link to="/portfolio/contact" className="nav-link" onClick={toggleMobileMenu}>Contact</Link>
         </div>
       </div>
     </nav>
